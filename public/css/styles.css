@@ -1068,7 +1068,7 @@ h2 {
 .kechei-gallery-item {
     position: relative;
     overflow: hidden;
-    border-radius: 8px;
+    border-radius: 0px;
     box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
 }
 
@@ -1193,27 +1193,27 @@ body {
 }
 
 .contact-header {
-    font-family: 'Times New Roman', Times, serif;
+    font-family: "Times New Roman", Times, serif;
     font-size: 18px;
     text-align: center;
     margin-bottom: 40px;
 }
 
 .contact-header h1 {
-    font-family: 'Times New Roman', Times, serif;
+    font-family: "Times New Roman", Times, serif;
     font-size: 16px;
     font-size: 36px;
     color: #143009;
 }
 
 .contact-header p {
-    font-family: 'Times New Roman', Times, serif;
+    font-family: "Times New Roman", Times, serif;
     font-size: 14px;
     color: #777;
 }
 
 .contact-content {
-    font-family: 'Times New Roman', Times, serif;
+    font-family: "Times New Roman", Times, serif;
     font-size: 16px;
     display: flex;
     justify-content: space-between;
@@ -1275,7 +1275,7 @@ body {
 }
 
 .contact-info p {
-    font-family: 'Times New Roman', Times, serif;
+    font-family: "Times New Roman", Times, serif;
     font-size: 16px;
     margin-bottom: 20px;
     font-size: 16px;
@@ -1297,7 +1297,6 @@ body {
     border: 0;
     border-radius: 8px;
 }
-
 
 /*carosel*/
 body {
@@ -1350,7 +1349,6 @@ body {
     right: 10px;
 }
 
-
 /*about classic*/
 .header {
     background: #4a4a4a;
@@ -1387,14 +1385,14 @@ body {
 }
 
 .hero-heading {
-    font-family: 'Times New Roman', Times, serif;
+    font-family: "Times New Roman", Times, serif;
     font-size: 18px;
     color: #2c3e50;
     margin-bottom: 1rem;
 }
 
 .hero-description {
-    font-family: 'Times New Roman', Times, serif;
+    font-family: "Times New Roman", Times, serif;
     font-size: 14px;
     color: #555;
 }
@@ -1413,7 +1411,7 @@ body {
 }
 
 .section-title {
-    font-family: 'Times New Roman', Times, serif;
+    font-family: "Times New Roman", Times, serif;
     font-size: 18px;
     color: #2c3e50;
     border-bottom: 2px solid #bdc3c7;
@@ -1423,7 +1421,7 @@ body {
 }
 
 .section-description {
-    font-family: 'Times New Roman', Times, serif;
+    font-family: "Times New Roman", Times, serif;
     margin-bottom: 1rem;
     text-align: justify;
 }
@@ -1449,7 +1447,7 @@ body {
 }
 
 .philosophy-item {
-    font-family: 'Times New Roman', Times, serif;
+    font-family: "Times New Roman", Times, serif;
     margin-bottom: 1rem;
     font-size: 14px;
     color: #555;
@@ -1463,4 +1461,1429 @@ body {
     margin: 1rem auto;
     display: block;
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+/*the index page*/
+
+/* Header Styles */
+.kc-header {
+    background: #143009; /* Dark green for header */
+    color: #ffffff;
+    padding: 1rem 0;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.kc-site-title {
+    font-size: 2.5rem;
+    text-align: center;
+    margin-bottom: 0.5rem;
+    font-weight: bold;
+    letter-spacing: 2px;
+}
+
+.kc-navigation {
+    text-align: center;
+}
+
+.kc-nav-list {
+    list-style: none;
+}
+
+.kc-nav-item {
+    display: inline;
+    margin: 0 1rem;
+}
+
+.kc-nav-link {
+    color: #ffffff;
+    text-decoration: none;
+    font-size: 1rem;
+    font-weight: bold;
+    padding: 0.5rem 1rem;
+    border-radius: 5px;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+.kc-nav-link:hover {
+    background-color: #eeb601; /* Highlight color */
+    color: #143009; /* Dark green for text */
+}
+
+/* Main Section Styles */
+.kc-main {
+    padding: 2rem 0;
+}
+
+/* Hero Section */
+.kc-hero {
+    background: linear-gradient(
+        to right,
+        #143009,
+        #143009
+    ); /* Dark green to grey gradient */
+    color: #ffffff;
+    padding: 4rem 1rem;
+    text-align: center;
+    box-shadow: inset 0 4px 6px rgba(0, 0, 0, 0.1);
+    margin-bottom: 2rem;
+    position: relative;
+}
+
+.kc-hero-content {
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.kc-hero-title {
+    font-size: 3rem;
+    margin-bottom: 1rem;
+    font-weight: bold;
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.2);
+}
+
+.kc-hero-description {
+    font-size: 1.25rem;
+    margin-bottom: 1.5rem;
+    color: #eeb601; /* Highlight color */
+}
+
+.kc-hero-button {
+    display: inline-block;
+    padding: 0.75rem 2rem;
+    font-size: 1rem;
+    color: #ffffff;
+    background-color: #eeb601; /* Button color */
+    text-decoration: none;
+    border-radius: 25px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    transition: background-color 0.3s, transform 0.3s;
+}
+
+.kc-hero-button:hover {
+    background-color: #143009; /* Dark green on hover */
+    transform: scale(1.05);
+}
+
+/* About Section */
+.kc-about,
+.kc-services,
+.kc-contact {
+    padding: 3rem 1rem;
+    background: #ffffff; /* White background for sections */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    margin: 0 0 2rem;
+    border-radius: 10px;
+}
+
+.kc-section-title {
+    font-size: 2rem;
+    color: #143009; /* Dark green for section titles */
+    margin-bottom: 1rem;
+    text-align: center;
+    font-weight: bold;
+    border-bottom: 2px solid #143009;
+    display: inline-block;
+    padding-bottom: 0.5rem;
+}
+
+.kc-about-text {
+    text-align: center;
+    color: #143009; /* Grey for text */
+    line-height: 1.8;
+}
+
+/* Services Section */
+.kc-service {
+    margin-bottom: 2rem;
+    text-align: center;
+}
+
+.kc-service-title {
+    font-size: 1.5rem;
+    color: #143009; /* Dark green for service titles */
+    margin-bottom: 0.5rem;
+    font-weight: bold;
+}
+
+.kc-service-description {
+    color: #143009; /* Grey for descriptions */
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+/* Contact Section */
+.kc-contact-info {
+    text-align: center;
+    font-size: 1.25rem;
+    margin-bottom: 1rem;
+    font-weight: bold;
+}
+
+.kc-contact-details {
+    text-align: center;
+    font-size: 1rem;
+    margin-bottom: 0.5rem;
+}
+
+/*FOOTER QR*/
+.kc-qr-code {
+    width: 100px; /* Adjust the size as needed */
+    height: 100px;
+    border: 0px; /* Optional: border to enhance visibility */
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Optional: shadow for 3D effect */
+}
+
+/* button navbar */
+.get-access {
+    padding-right: 20px;
+    padding-left: 20px;
+}
+
+/*accomodation css*/
+.kc-accommodation-container {
+    padding: 20px;
+}
+
+.kc-hero-section {
+    background: linear-gradient(135deg, #eeb601, #143009);
+    color: white;
+    padding: 60px 20px;
+    text-align: center;
+    border-radius: 0 0 60px 60px;
+    position: relative;
+}
+
+.kc-hero-content h1 {
+    margin: 0;
+    font-size: 3em;
+    font-weight: bold;
+}
+
+.kc-hero-content p {
+    font-size: 1.2em;
+    margin: 10px 0;
+}
+
+.kc-cta-button {
+    display: inline-block;
+    padding: 12px 24px;
+    background-color: #143009;
+    color: white;
+    text-decoration: none;
+    border-radius: 30px;
+    font-size: 16px;
+    font-weight: bold;
+    transition: background-color 0.3s ease;
+}
+
+.kc-cta-button:hover {
+    background-color: #0d2200;
+}
+
+.kc-room-info {
+    margin: 40px 0;
+}
+
+.kc-container {
+    width: 90%;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.kc-room-grid {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.kc-room-card {
+    background: #fff;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    flex: 1;
+    min-width: 300px;
+    max-width: 30%;
+    text-align: center;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.kc-room-card:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15);
+}
+
+.kc-room-image {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+}
+
+.kc-room-details {
+    padding: 20px;
+}
+
+.kc-room-details h3 {
+    margin: 10px 0;
+    color: #143009;
+}
+
+.kc-room-details p {
+    color: #666565;
+}
+
+.kc-facilities {
+    background: #14300999;
+    color: #143009;
+    padding: 40px 20px;
+    border-radius: 0px;
+}
+
+.kc-facilities h2 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.kc-facilities-grid {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.kc-facility-item {
+    flex: 1;
+    min-width: 150px;
+    text-align: center;
+    color: #143009;
+}
+
+.kc-facility-icon {
+    width: 80px;
+    height: 80px;
+    margin-bottom: 10px;
+}
+
+.kc-booking-section {
+    text-align: center;
+    padding: 40px 20px;
+}
+
+.kc-booking-section h2 {
+    font-family: "Times New Roman", Times, serif;
+    margin: 0;
+    font-size: 2em;
+    color: #143009;
+}
+
+.kc-booking-section p {
+    font-family: "Times New Roman", Times, serif;
+    font-size: 14px;
+    font-size: 1.2em;
+    margin: 10px 0;
+}
+
+.kc-booking-section .kc-cta-button {
+    padding: 12px 24px;
+    background-color: #143009;
+    color: white;
+    text-decoration: none;
+    border-radius: 0px;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.kc-booking-section .kc-cta-button:hover {
+    background-color: #0d2200;
+}
+
+/*recreation-page*/
+.kc-rcrtn-main-container {
+    padding: 20px;
+}
+
+.kc-rcrtn-hero {
+    background: url("images/hero-bg.jpg") no-repeat center center;
+    background-size: cover;
+    color: white;
+    padding: 80px 20px;
+    text-align: center;
+    border-radius: 0 0 60px 60px;
+    position: relative;
+}
+
+.kc-rcrtn-hero-text h1 {
+    font-size: 3em;
+    margin-bottom: 10px;
+    font-weight: bold;
+    letter-spacing: 2px;
+}
+
+.kc-rcrtn-hero-text p {
+    font-size: 1.2em;
+    margin-bottom: 20px;
+}
+
+.kc-rcrtn-cta-button {
+    display: inline-block;
+    padding: 12px 24px;
+    background-color: #eeb601;
+    color: #143009;
+    text-decoration: none;
+    border-radius: 30px;
+    font-size: 16px;
+    font-weight: bold;
+    transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.kc-rcrtn-cta-button:hover {
+    background-color: #143009;
+    color: #eeb601;
+}
+
+.kc-rcrtn-highlights {
+    margin: 40px 0;
+}
+
+.kc-rcrtn-container {
+    width: 90%;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.kc-rcrtn-highlight-cards {
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+.kc-rcrtn-card {
+    background: #fff;
+    border-radius: 15px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    overflow: hidden;
+    flex: 1;
+    min-width: 300px;
+    max-width: 30%;
+    text-align: center;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.kc-rcrtn-card:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.3);
+}
+
+.kc-rcrtn-card-image {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+}
+
+.kc-rcrtn-card-content {
+    padding: 20px;
+}
+
+.kc-rcrtn-card-content h3 {
+    color: #143009;
+    margin-bottom: 10px;
+}
+
+.kc-rcrtn-card-content p {
+    color: #666565;
+}
+
+.kc-rcrtn-gallery {
+    padding: 40px 20px;
+    background-color: #666565;
+}
+
+.kc-rcrtn-gallery h2 {
+    font-family: "Times New Roman", Times, serif;
+    text-align: center;
+    margin-bottom: 20px;
+    color: #eeb601;
+}
+
+.kc-rcrtn-gallery-grid {
+    display: flex;
+    gap: 15px;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.kc-rcrtn-gallery-item {
+    flex: 1;
+    min-width: 200px;
+    max-width: 30%;
+    text-align: center;
+}
+
+.kc-rcrtn-gallery-image {
+    width: 100%;
+    height: 150px;
+    object-fit: cover;
+    border-radius: 10px;
+}
+
+.kc-rcrtn-join {
+    text-align: center;
+    padding: 40px 20px;
+    background-color: #14300999;
+}
+
+.kc-rcrtn-join h2 {
+    font-family: "Times New Roman", Times, serif;
+    margin: 0;
+    font-size: 2em;
+    color: #143009;
+}
+
+.kc-rcrtn-join p {
+    font-family: "Times New Roman", Times, serif;
+    font-size: 1.2em;
+    margin: 10px 0;
+}
+
+.kc-rcrtn-join .kc-rcrtn-cta-button {
+    padding: 12px 24px;
+    background-color: #143009;
+    color: #eeb601;
+    text-decoration: none;
+    border-radius: 0px;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.kc-rcrtn-join .kc-rcrtn-cta-button:hover {
+    background-color: #0d2200;
+    color: #f5f5f5;
+}
+
+/*hotel & Restaurant*/
+/* Main Container */
+.kechei-hotel-container {
+    width: 90%;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+/* Hero Section */
+.kechei-hotel-hero {
+    background: url("images/hero-background-hotel.jpg") no-repeat center center;
+    background-size: cover;
+    height: 400px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+}
+
+.kechei-hotel-hero-content {
+    background: rgba(0, 0, 0, 0.5);
+    padding: 30px;
+    text-align: center;
+    border-radius: 15px;
+    color: #fff;
+}
+
+.kechei-hotel-hero-content h1 {
+    font-family: "Times New Roman", Times, serif;
+    font-size: 2.5em;
+    margin-bottom: 10px;
+}
+
+.kechei-hotel-hero-content p {
+    font-size: 14px;
+    font-family: "Times New Roman", Times, serif;
+    font-size: 1.2em;
+    margin-bottom: 20px;
+}
+
+.kechei-hotel-button {
+    display: inline-block;
+    padding: 12px 25px;
+    background-color: #eeb601;
+    color: #143009;
+    text-decoration: none;
+    border-radius: 30px;
+    font-size: 16px;
+    font-weight: bold;
+    transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.kechei-hotel-button:hover {
+    background-color: #143009;
+    color: #eeb601;
+}
+
+/* Hotel Section */
+.kechei-hotel-section {
+    padding: 40px 0;
+    background-color: #fff;
+}
+
+.kechei-hotel-heading {
+    font-family: "Times New Roman", Times, serif;
+    text-align: center;
+    margin-bottom: 30px;
+    font-size: 2em;
+    color: #143009;
+}
+
+.kechei-hotel-features {
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.kechei-hotel-feature-item {
+    background: #eeb601;
+    border-radius: 0px;
+    overflow: hidden;
+    width: 100%;
+    max-width: 350px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    text-align: center;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.kechei-hotel-feature-item:hover {
+    transform: translateY(-8px);
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.3);
+}
+
+.kechei-hotel-image {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+}
+
+.kechei-hotel-feature-title {
+    font-family: "Times New Roman", Times, serif;
+    color: #143009;
+    margin: 15px 0 10px;
+    font-size: 1.5em;
+}
+
+.kechei-hotel-feature-description {
+    color: #666565;
+    padding: 0 10px;
+}
+
+/* Restaurant Section */
+.kechei-restaurant-section {
+    padding: 40px 0;
+    background-color: #f0f0f0;
+}
+
+.kechei-restaurant-heading {
+    text-align: center;
+    margin-bottom: 30px;
+    font-size: 2em;
+    color: #143009;
+}
+
+.kechei-restaurant-features {
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.kechei-restaurant-feature-item {
+    background: #eeb601;
+    border-radius: 0px;
+    overflow: hidden;
+    width: 100%;
+    max-width: 350px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    text-align: center;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.kechei-restaurant-feature-item:hover {
+    transform: translateY(-8px);
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.3);
+}
+
+.kechei-restaurant-image {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+}
+
+.kechei-restaurant-feature-title {
+    font-family: "Times New Roman", Times, serif;
+    color: #143009;
+    margin: 15px 0 10px;
+    font-size: 1.5em;
+}
+
+.kechei-restaurant-feature-description {
+    color: #666565;
+    padding: 0 10px;
+}
+
+/* Contact Section */
+.kechei-hotel-contact {
+    padding: 40px 0;
+    background-color: #fff;
+    text-align: center;
+}
+
+.kechei-hotel-contact-info {
+    font-family: "Times New Roman", Times, serif;
+    font-size: 1.2em;
+    color: #666565;
+    margin-bottom: 20px;
+}
+
+.kechei-hotel-contact a {
+    display: inline-block;
+    padding: 12px 25px;
+    background-color: #eeb601;
+    color: #143009;
+    text-decoration: none;
+    border-radius: 0px;
+    font-family: "Times New Roman", Times, serif;
+    font-size: 16px;
+    font-weight: bold;
+    transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.kechei-hotel-contact a:hover {
+    background-color: #143009;
+    color: #eeb601;
+}
+
+/*massage therapy*/
+/* Main Container */
+.serenity-container {
+    width: 90%;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+/* Hero Section */
+.serenity-massage-hero {
+    background: url("images/serenity-massage-hero.jpg") no-repeat center center;
+    background-size: cover;
+    height: 450px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+}
+
+.serenity-hero-overlay {
+    background: rgba(0, 0, 0, 0.5);
+    padding: 30px;
+    border-radius: 15px;
+    text-align: center;
+    color: #fff;
+}
+
+.serenity-hero-title {
+    font-family: "Times New Roman", Times, serif;
+    font-size: 2.5em;
+    margin-bottom: 10px;
+    font-weight: bold;
+}
+
+.serenity-hero-subtitle {
+    font-family: "Times New Roman", Times, serif;
+    font-size: 1.2em;
+    margin-bottom: 20px;
+}
+
+.serenity-hero-button {
+    display: inline-block;
+    padding: 12px 25px;
+    background-color: #eeb601;
+    color: #143009;
+    text-decoration: none;
+    border-radius: 25px;
+    font-size: 16px;
+    font-weight: bold;
+    transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.serenity-hero-button:hover {
+    background-color: #143009;
+    color: #eeb601;
+}
+
+/* Services Section */
+.serenity-massage-services {
+    padding: 40px 0;
+    background-color: #fff;
+}
+
+.serenity-section-heading {
+    font-family: "Times New Roman", Times, serif;
+    text-align: center;
+    margin-bottom: 30px;
+    font-size: 2em;
+    color: #143009;
+}
+
+.serenity-services-grid {
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.serenity-service-item {
+    background: #eeb601;
+    border-radius: 0px;
+    overflow: hidden;
+    width: 100%;
+    max-width: 300px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    text-align: center;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.serenity-service-item:hover {
+    transform: translateY(-8px);
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.3);
+}
+
+.serenity-service-image {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+}
+
+.serenity-service-title {
+    font-family: "Times New Roman", Times, serif;
+    color: #143009;
+    margin: 15px 0 10px;
+    font-size: 1.5em;
+}
+
+.serenity-service-description {
+    font-family: "Times New Roman", Times, serif;
+    color: #666565;
+    padding: 0 15px;
+}
+
+/* Special Offers Section */
+.serenity-special-offers {
+    padding: 40px 0;
+    background-color: #f9f9f9;
+    text-align: center;
+}
+
+.serenity-offers-grid {
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+
+.serenity-offer-item {
+    background: #143009;
+    border-radius: 0px;
+    padding: 20px;
+    color: #fff;
+    width: 100%;
+    max-width: 300px;
+    text-align: center;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.serenity-offer-item:hover {
+    transform: translateY(-8px);
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.3);
+}
+
+.serenity-offer-title {
+    font-family: "Times New Roman", Times, serif;
+    margin-bottom: 10px;
+    font-size: 1.5em;
+    color: #eeb601;
+}
+
+.serenity-offer-description {
+    font-family: "Times New Roman", Times, serif;
+    font-size: 1em;
+}
+
+/* Testimonials Section */
+.serenity-testimonials {
+    padding: 40px 0;
+    background-color: #fff;
+    text-align: center;
+}
+
+.serenity-testimonials-slider {
+    max-width: 700px;
+    margin: 0 auto;
+    overflow: hidden;
+    position: relative;
+}
+
+.serenity-testimonial {
+    padding: 20px;
+    background: #f1f1f1;
+    border-radius: 0px;
+    margin-bottom: 20px;
+}
+
+.serenity-testimonial-text {
+    font-family: "Times New Roman", Times, serif;
+    font-size: 1.2em;
+    color: #666565;
+    margin-bottom: 10px;
+}
+
+.serenity-testimonial-author {
+    font-weight: bold;
+    color: #143009;
+}
+
+/* Contact Section */
+.serenity-contact {
+    padding: 40px 0;
+    background-color: #f9f9f9;
+    text-align: center;
+}
+
+.serenity-contact-info {
+    font-family: "Times New Roman", Times, serif;
+    font-size: 1.2em;
+    margin-bottom: 20px;
+    color: #666565;
+}
+
+.serenity-contact-button {
+    font-family: "Times New Roman", Times, serif;
+    padding: 12px 25px;
+    background-color: #eeb601;
+    color: #143009;
+    text-decoration: none;
+    border-radius: 0px;
+    font-size: 16px;
+    font-weight: bold;
+    transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.serenity-contact-button:hover {
+    background-color: #143009;
+    color: #eeb601;
+}
+
+/*events & parties*/
+Main Container .grandeur-container {
+    width: 90%;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+/* Hero Section */
+.grandeur-events-hero {
+    background: url("images/grandeur-events-hero.jpg") no-repeat center center;
+    background-size: cover;
+    height: 450px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+}
+
+.grandeur-hero-overlay {
+    background: rgba(0, 0, 0, 0.5);
+    padding: 30px;
+    border-radius: 15px;
+    text-align: center;
+    color: #fff;
+}
+
+.grandeur-hero-title {
+    font-size: 2.5em;
+    margin-bottom: 10px;
+    font-weight: bold;
+}
+
+.grandeur-hero-subtitle {
+    font-size: 1.2em;
+    margin-bottom: 20px;
+}
+
+.grandeur-hero-button {
+    display: inline-block;
+    padding: 12px 25px;
+    background-color: #b37400;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 25px;
+    font-size: 16px;
+    font-weight: bold;
+    transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.grandeur-hero-button:hover {
+    background-color: #fff;
+    color: #b37400;
+}
+
+/* Services Section */
+.grandeur-events-services {
+    padding: 40px 0;
+    background-color: #fff;
+}
+
+.grandeur-section-heading {
+    text-align: center;
+    margin-bottom: 30px;
+    font-size: 2em;
+    color: #b37400;
+}
+
+.grandeur-services-grid {
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.grandeur-service-item {
+    background: #b37400;
+    border-radius: 15px;
+    overflow: hidden;
+    width: 100%;
+    max-width: 300px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    text-align: center;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.grandeur-service-item:hover {
+    transform: translateY(-8px);
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.3);
+}
+
+.grandeur-service-image {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+}
+
+.grandeur-service-title {
+    font-family: "Times New Roman", Times, serif;
+    padding: 15px 0;
+    font-size: 1.5em;
+    color: #fff;
+    background-color: #333;
+    margin: 0;
+}
+
+.grandeur-service-description {
+    font-family: "Times New Roman", Times, serif;
+    padding: 15px;
+    font-size: 1em;
+    color: #fff;
+    background-color: #b37400;
+}
+
+/* Customization Section */
+.grandeur-customization {
+    padding: 40px 0;
+    background-color: #f1f1f1;
+}
+
+.grandeur-customization-grid {
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.grandeur-custom-item {
+    background: #fff;
+    border-radius: 0px;
+    padding: 20px;
+    text-align: center;
+    width: 100%;
+    max-width: 300px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.grandeur-custom-item:hover {
+    transform: translateY(-8px);
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.3);
+}
+
+.grandeur-custom-title {
+    font-family: "Times New Roman", Times, serif;
+    font-size: 1.5em;
+    color: #b37400;
+    margin-bottom: 10px;
+}
+
+.grandeur-custom-description {
+    font-family: "Times New Roman", Times, serif;
+    font-size: 1em;
+    color: #666;
+}
+
+/* Gallery Section */
+.grandeur-gallery {
+    padding: 40px 0;
+    background-color: #fff;
+}
+
+.grandeur-gallery-grid {
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.grandeur-gallery-item {
+    border-radius: 15px;
+    overflow: hidden;
+    width: 100%;
+    max-width: 300px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    text-align: center;
+}
+
+.grandeur-gallery-item:hover {
+    transform: translateY(-8px);
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.3);
+}
+
+.grandeur-gallery-image {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+}
+
+.grandeur-gallery-caption {
+    font-family: "Times New Roman", Times, serif;
+    padding: 10px;
+    font-size: 1em;
+    color: #333;
+}
+
+/* Contact Section */
+.grandeur-contact {
+    padding: 40px 0;
+    background-color: #f1f1f1;
+    text-align: center;
+}
+
+.grandeur-contact-info {
+    font-family: "Times New Roman", Times, serif;
+    font-size: 1.2em;
+    margin-bottom: 20px;
+    color: #666;
+}
+
+.grandeur-contact-button {
+    font-family: "Times New Roman", Times, serif;
+    padding: 12px 25px;
+    background-color: #b37400;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 25px;
+    font-size: 16px;
+    font-weight: bold;
+    transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.grandeur-contact-button:hover {
+    background-color: #fff;
+    color: #b37400;
+}
+
+/*conference*/
+/* Hero Section */
+.conference-hero {
+    background: url("conference-hero-image.jpg") no-repeat center center/cover;
+    height: 400px;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.conference-hero-overlay {
+    background: rgba(20, 48, 9, 0.8);
+    padding: 20px;
+    border-radius: 0px;
+}
+
+.conference-hero-text h1 {
+    font-family: "Times New Roman", Times, serif;
+    font-size: 2.8em;
+    color: #eeb601;
+}
+
+.conference-hero-text p {
+    font-family: "Times New Roman", Times, serif;
+    font-size: 1.4em;
+    color: white;
+}
+
+/* Introduction Section */
+.conference-introduction {
+    padding: 60px 20px;
+    background-color: white;
+    text-align: center;
+}
+
+.conference-intro-content {
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+/* Gallery Section */
+.conference-gallery {
+    padding: 40px 20px;
+    background-color: #f0f0f0;
+}
+
+.conference-gallery-grid {
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.gallery-item {
+    background-color: white;
+    border-radius: 0px;
+    overflow: hidden;
+    max-width: 300px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.gallery-item img {
+    width: 100%;
+    display: block;
+}
+
+.gallery-item h3 {
+    font-family: "Times New Roman", Times, serif;
+    padding: 10px;
+    font-size: 1.2em;
+    background-color: #143009;
+    color: white;
+    text-align: center;
+}
+
+/* Services Section */
+.conference-services {
+    padding: 50px 20px;
+    background-color: white;
+}
+
+.services-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+    gap: 20px;
+    justify-content: center;
+}
+
+.service-card {
+    background-color: #eeb601;
+    padding: 20px;
+    border-radius: 0px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: left;
+}
+
+.service-card h3 {
+    font-family: "Times New Roman", Times, serif;
+    font-size: 1.4em;
+    color: #143009;
+    margin-bottom: 10px;
+}
+
+/* Call to Action Section */
+.conference-cta {
+    padding: 60px 20px;
+    background-color: #14300999;
+    text-align: center;
+    color: white;
+}
+
+.cta-content {
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.cta-button {
+    font-family: "Times New Roman", Times, serif;
+    display: inline-block;
+    padding: 12px 30px;
+    background-color: #eeb601;
+    color: #143009;
+    text-decoration: none;
+    font-size: 1.1em;
+    border-radius: 0px;
+    transition: background-color 0.3s ease;
+}
+
+.cta-button:hover {
+    background-color: #ffd23f;
+}
+
+/*Careers Page*/
+/* Featured Careers Section */
+.featured-careers {
+    padding: 60px 20px;
+    background-color: #f9f9f9;
+    text-align: center;
+}
+
+.career-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.career-card {
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+    margin: 15px;
+    padding: 20px;
+    width: 300px;
+    transition: transform 0.3s ease;
+}
+
+.career-card:hover {
+    transform: scale(1.05);
+}
+
+.career-card-title {
+    font-size: 1.8em;
+    color: #143009;
+    margin-bottom: 10px;
+}
+
+.career-card-location,
+.career-card-type {
+    font-size: 1.2em;
+    color: #666565;
+}
+
+.career-card-link {
+    display: inline-block;
+    margin-top: 20px;
+    padding: 10px 25px;
+    background-color: #eeb601;
+    color: #143009;
+    text-decoration: none;
+    border-radius: 0px;
+    transition: background-color 0.3s ease;
+}
+
+.career-card-link:hover {
+    background-color: #d4a000;
+}
+
+/* Career Benefits Section */
+.career-benefits {
+    padding: 60px 20px;
+    background-color: #143009;
+    color: #fff;
+    text-align: center;
+}
+
+.benefits-title {
+    font-family: "Times New Roman", Times, serif;
+    font-size: 1.4em;
+    color: #eeb601;
+    margin-bottom: 40px;
+}
+
+.benefits-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 30px;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.benefit-item {
+    background-color: #eeb601;
+    padding: 20px;
+    border-radius: 0px;
+    color: #143009;
+    text-align: center;
+}
+
+.benefit-icon {
+    width: 60px;
+    height: 60px;
+    margin-bottom: 15px;
+}
+
+.benefit-heading {
+    font-family: "Times New Roman", Times, serif;
+    font-size: 1.4em;
+    margin-bottom: 10px;
+}
+
+.benefit-description {
+    font-family: "Times New Roman", Times, serif;
+    font-size: 1.1em;
+}
+
+/* Call to Action Section */
+.career-cta {
+    background-color: #666565;
+    padding: 60px 20px;
+    text-align: center;
+    color: #fff;
+}
+
+.cta-content {
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.cta-title {
+    font-family: "Times New Roman", Times, serif;
+    font-size: 2.4em;
+    margin-bottom: 20px;
+}
+
+.cta-text {
+    font-family: "Times New Roman", Times, serif;
+    font-size: 1.3em;
+    margin-bottom: 30px;
+}
+
+.cta-button {
+    font-family: "Times New Roman", Times, serif;
+    display: inline-block;
+    padding: 12px 30px;
+    background-color: #eeb601;
+    color: #143009;
+    text-decoration: none;
+    font-size: 1.2em;
+    border-radius: 0px;
+    transition: background-color 0.3s ease;
+}
+
+.cta-button:hover {
+    background-color: #d4a000;
 }

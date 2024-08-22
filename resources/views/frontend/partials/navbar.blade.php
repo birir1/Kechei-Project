@@ -1,9 +1,10 @@
 <div class="navbar">
     <div class="navbar-left">
         <ul>
+            <li><a href="/">Home</a></li>
             <li><a href="/about">About</a></li>
             <li class="dropdown">
-                <a href="#" class="dropdown-toggle">Reservation</a>
+                <a href="/reservations" class="dropdown-toggle">Reservation</a>
                 <div class="dropdown-menu">
                     <a href="/conferences" class="dropdown-item">Conferences</a>
                     <a href="/events" class="dropdown-item">Events</a>
@@ -26,6 +27,7 @@
             <li><a href="/newsevents">News & Events</a></li>
             <li><a href="/gallery">Gallery</a></li>
             <li><a href="/contacts">Contacts</a></li>
+            <a href="#get-access" class="book-now-button">Get Access</a>
         </ul>
     </div>
 </div>

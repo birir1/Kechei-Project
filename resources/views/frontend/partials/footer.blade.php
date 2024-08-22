@@ -3,21 +3,27 @@
         <!-- Discover Kechei Section -->
         <div class="footer-column discover">
             <h3 style="color: #eeb601;"><b>DISCOVER KECHEI</b></h3>
-            <img src="{{ asset('images/kechei-logo.png') }}" alt="Kechei Centre Small Logo" class="footer-logo">
+            <br>
+            <hr>
+            <br>
+            <center><img src="{{ asset('images/kechei-logo.png') }}" alt="Kechei Centre Small Logo" class="footer-logo"></center>
             <p>Experience the charm and hospitality of Kechei Centre. Explore our unique offerings and services tailored just for you.</p>
         </div>
 
         <!-- Services Section -->
         <div class="footer-column services">
             <h3 style="color: #eeb601;"><b>SERVICES</b></h3>
+            <br>
+            <hr>
+            <br>
             <ul>
-                <li><a href="#accommodation">Accommodation</a></li>
-                <li><a href="#recreation">Recreation</a></li>
-                <li><a href="#hotel-restaurant">Hotel & Restaurant</a></li>
-                <li><a href="#massage-therapy">Massage & Therapy</a></li>
-                <li><a href="#events-parties">Events & Parties</a></li>
-                <li><a href="#events-parties">Conferences</a></li>
-                <li><a href="#events-parties">Careers</a></li>
+                <li><a href="/accomodation">Accommodation</a></li>
+                <li><a href="/recreation">Recreation</a></li>
+                <li><a href="/hotelrestaurant">Hotel & Restaurant</a></li>
+                <li><a href="/massagetherapy">Massage & Therapy</a></li>
+                <li><a href="/eventsparties">Events & Parties</a></li>
+                <li><a href="/conferences">Conferences</a></li>
+                <li><a href="/careers">Careers</a></li>
                 <li><a href="/calender">Calender</a></li>
                 <li><a href="/location">Location</a></li>
             </ul>
@@ -26,10 +32,29 @@
         <!-- Contact Us Section -->
         <div class="footer-column contact-us">
             <h3 style="color: #eeb601;"><b>REACH OUT</b></h3>
+            <br>
+            <hr>
+            <br>
             <p>Phone: +254 701 616 456</p>
             <p>Email: info@kecheicentre.com</p>
             <p>Location: 00600 Iten, Elgeiyo Marakwet, Kenya</p>
             <a href="#book-now" class="book-now-button">Book Now</a>
+        </div>
+
+        {{-- QR --}}
+        <div class="kc-footer-content items-center">
+            <h3 style="color: #eeb601;"><b>QUICK ACCESS</b></h3>
+            <br>
+            <hr>
+            <br>
+            
+            <div class="kc-footer-column">
+                <img src="{{ asset('images/kecheiqr.png') }}" alt="QR Code to Kechei Center" class="kc-qr-code">
+            </div>
+            <br>
+            <div class="kc-footer-column">
+                <p class="kc-footer-text">&copy; 2024 Kechei Center. All rights reserved.</p>
+            </div>
         </div>
     </div>
     
@@ -43,8 +68,8 @@
     </div>
 
     <!-- Privacy Policy and Terms and Conditions -->
-    <div class="footer-bottom container">
-        <a href="#privacy-policy" class="footer-link">Privacy Policy</a>
-        <a href="#terms-conditions" class="footer-link">Terms and Conditions</a>
-    </div>
+<div class="footer-bottom container">
+    <a href="{{ asset('pdf/Kechei-Policy01.pdf') }}" class="footer-link">Privacy Policy</a>
+    <a href="{{ asset('pdf/Terms and Conditions.pdf') }}" class="footer-link">Terms and Conditions</a>
+</div>
 </footer>

@@ -14,5 +14,7 @@
 
 @include('frontend.partials.Landing')
 
+@include('frontend.partials.index')
+
 @include('frontend.partials.footer')
 @endsection

@@ -1,11 +1,11 @@
 @extends('layouts.kechei')
 
-@section('title', 'About Page')
+@section('title', 'Recreations Page')
 
 @section('content')
 @include('frontend.partials.navbar')
 
-@include('frontend.partials.about')
+@include('frontend.partials.recreation')
 
 @include('frontend.partials.footer')
 @endsection

@@ -35,4 +35,32 @@ abstract class Controller
     public function calender(){
         return view("frontend.calender");
     }
+
+    public function accomodation(){
+        return view("frontend.accomodation");
+    }
+
+    public function recreation(){
+        return view("frontend.recreation");
+    }
+
+    public function hotelrestaurant(){
+        return view("frontend.hotelrestaurant");
+    }
+
+    public function massagetherapy(){
+        return view("frontend.massagetherapy");
+    }
+
+    public function eventsparties(){
+        return view("frontend.eventsparties");
+    }
+
+    public function conferences(){
+        return view("frontend.conferences");
+    }
+
+    public function careers(){
+        return view("frontend.careers");
+    }
 }

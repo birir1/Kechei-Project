@@ -39,6 +39,34 @@ Route::get('/gallery', function () {
     return view('frontend.gallery');
 });
 
+Route::get('/accomodation', function () {
+    return view('frontend.accomodation');
+});
+
+Route::get('/recreation', function () {
+    return view('frontend.recreation');
+});
+
+Route::get('/hotelrestaurant', function () {
+    return view('frontend.hotelrestaurant');
+});
+
+Route::get('/massagetherapy', function () {
+    return view('frontend.massagetherapy');
+});
+
+Route::get('/eventsparties', function () {
+    return view('frontend.eventsparties');
+}); 
+
+Route::get('/conferences', function () {
+    return view('frontend.conferences');
+}); 
+
+Route::get('/careers', function () {
+    return view('frontend.careers');
+}); 
+
 Route::get('/dashboard', function () {
     return view('dashboard');
 })->middleware(['auth', 'verified'])->name('dashboard');
